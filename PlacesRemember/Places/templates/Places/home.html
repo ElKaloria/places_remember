@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-{% extends "base.html" %}
-<html lang="en">
+{% include "base.html" %}
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{{ Title }}</title>
 </head>
 <body>
+<div class="container text-left">
+    <div class="row">
+        <div class="col-md-auto">
+            Places Remember
+        </div>
+        {% for m in menu %}
+        <div class="col">
+            <a href="#">{{ m.title }}</a>
+        </div>
+        {% endfor %}
+    </div>
 
+</div>
 </body>
 </html>
