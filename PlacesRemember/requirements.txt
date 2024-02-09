@@ -1,0 +1,8 @@
+Django
+asgiref
+numpy
+psycopg2
+setuptools
+sqlparse
+tzdata
+wheel
