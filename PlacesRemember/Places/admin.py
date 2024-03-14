@@ -4,6 +4,6 @@ from .models import *
 
 @admin.register(Post)
 class PostsAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['title', 'author', 'location', 'address', 'publish']
 
 

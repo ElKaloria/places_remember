@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.gis',
     'Places.apps.PlacesConfig',
 ]
 
@@ -81,8 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'PlacesRememberdb',
         'USER': 'postgres',
-        'PASSWORD': 'maks9877',
-        'HOST': 'localhost',
+        'PASSWORD': 'postgres123',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
